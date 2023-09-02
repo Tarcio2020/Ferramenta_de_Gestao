@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Projetos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>/* Estilos gerais */
+        
+        
+        body {
+            width: 1000px;
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        /* Estilos dos cards de projeto */
+        #project-panel {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .project-card {
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            width: 30%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        
+        .project-card h3 {
+            margin-top: 0;
+        }
+        
+        .project-card a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+        }
+        
+        /* Estilos do rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Painel de Projetos</h1>
+    </header>
+
+    <section id="project-panel">
+        <h2>Projetos</h2>
+
+        <!-- Cards de Projeto -->
+        <div class="project-card">
+            <h3>Projeto A</h3>
+            <p>Descrição do Projeto A.</p>
+            <a href="#">Detalhes</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Projeto B</h3>
+            <p>Descrição do Projeto B.</p>
+            <a href="#">Detalhes</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Projeto C</h3>
+            <p>Descrição do Projeto C.</p>
+            <a href="#">Detalhes</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Painel de Projetos</p>
+    </footer>
+</body>
+</html>
